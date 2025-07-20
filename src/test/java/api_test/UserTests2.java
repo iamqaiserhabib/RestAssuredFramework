@@ -55,7 +55,7 @@ public class UserTests2 {
 		
 		logger.info("**************** Reading User Info **********************");
 		
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		Response response = UserEndPoints2.readUser(this.userPayload.getUsername());
 		response.then().log().all();
 		Assert.assertEquals(response.getStatusCode(), 200);
