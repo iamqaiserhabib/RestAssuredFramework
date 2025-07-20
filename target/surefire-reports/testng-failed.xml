@@ -8,6 +8,8 @@
           <include name="setup"/>
           <include name="deleteUserByName"/>
           <include name="testPostUser"/>
+          <include name="testGetUserByName"/>
+          <include name="testUpdateUserByName"/>
         </methods>
       </class> <!-- api_test.UserTests2 -->
     </classes>
